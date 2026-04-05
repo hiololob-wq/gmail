@@ -330,7 +330,14 @@ go-to: rm_main_menu
 
 Radbruch has been removed as an advisor. 
 
+@remove_lobe
+title: Remove Löbe
+view-if: Lobe_advisor = 1
+tags: remove_advisor
+on-arrival: lobe_advisor = 0; n_advisors -= 1
+go-to: rm_main_menu
 
+Löbe has been removed as an advisor. 
 
 
 
