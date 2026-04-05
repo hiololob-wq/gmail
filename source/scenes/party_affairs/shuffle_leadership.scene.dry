@@ -718,4 +718,15 @@ tags: nonfactional_advisor
 
 Friedrich Stampfer is now an advisor.
 
+@add_lobe
+title: Paul Löbe
+subtitle: Paul Löbe is a renowned <span style="color: #796846;">**social fascist**</span> scholar and long-time <span style="color: #c00000;">**SPD**</span> Reichtag speaker. {!<br><br>!}[? if difficulty < 0 : Actions - Kill Müller, Kill Schumacher, council of elders ?]
+is-card: true
+card-image: img/portraits/LöbePaul.jpg
+view-if: lobe_advisor = 0 and n_advisors < 3
+on-arrival: lobe_advisor = 1; n_advisors += 1
+go-to: advisor_menu
+tags: nonfactional_advisor
+
+Paul Löbe is now an advisor.
 
