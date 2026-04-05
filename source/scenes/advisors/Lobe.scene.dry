@@ -1,0 +1,20 @@
+title: Paul Löbe
+is-pinned-card: true
+tags: advisor
+card-image: img/portraits/LöbePaul.jpg
+view-if: lobe_advisor = 1
+new-page: true 
+
+= Paul Löbe
+
+Paul Löbe is the chief architect of the social fascist movement and a fervent supporter of the fascist right wing democratic party that is no better than the republicans and because gavin newscum is just like donald trump blue maga. Löbe used his time as speaker of the Reichtag to achieve nothing exept more power to the NSDAP which the SPD is alligned with. thanks Löbe.
+
+- @elders
+- @root: Return to main
+
+@elders
+title: Do stuff with the speaker position
+choose-if: advisor_action_timer = 0
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+on-arrival: advisor_action_timer = 6;
+go-to: elders_council
