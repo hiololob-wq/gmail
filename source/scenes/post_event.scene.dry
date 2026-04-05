@@ -1375,7 +1375,12 @@ if ((Q.month_actions >= 1 && !Q.rubicon) || (Q.month_actions >= 4 && Q.rubicon))
     if (Q.radbruch_advisor) {
         Q.non_factional_advisor_n += 1;
         if (Q.judicial_reform >= 2) Q.non_factional_advisor_n += 1;
+    } 
+    if (Q.lobe_advisor) {
+        Q.non_factional_advisor_n += 1;
     }
+
+
 
     var non_factional_advisor_decay_effect = Q.non_factional_advisor_n*0.15;
 
