@@ -1,0 +1,18 @@
+title: Council of Elders
+new-page: true
+is-card: true
+view-if: elders_council_timer <= 0
+on-arrival: elders_council_timer += 6
+tags: govt_affairs
+card-image: img/Reichtag_session.jpg
+#subtitle: do some reichtaging
+
+= Council of Elders
+
+The council of elders is a amazing body in the legislature. it can do some cool stuff. Paul Löbe approves.
+
+we can do stuff if we wanted to... 
+
+- @root: No new policies are needed.
+- @easy_discard
+- @cancel_advisor_action
