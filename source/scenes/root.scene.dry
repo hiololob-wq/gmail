@@ -1056,6 +1056,7 @@ Q.wirth_advisor = 0; // troll
 Q.hirschfeld_advisor = 0; // Magnus Hirschfeld
 Q.radbruch_advisor = 0; // Gustav Radbruch
 Q.stampfer_advisor = 0; // Friedrich Stampfer
+Q.lobe_advisor = 0; // Paul Löbe
 
 if (Q.achievement_holy_moly) {
     const content = document.getElementById('content');
