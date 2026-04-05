@@ -721,7 +721,7 @@ Friedrich Stampfer is now an advisor.
 
 @add_lobe
 title: Paul Löbe
-subtitle: Paul Löbe is a long time <span style="color: #c00000;">**social fascist**</span> and <span style="color: #c00000;">**SPD**</span> speaker. {!<br><br>!}[? if difficulty < 0 : Actions - council of elders ?]
+subtitle: Paul Löbe is a long time <span style="color: #c00000;">**social fascist**</span> and <span style="color: #c00000;">**SPD**</span> speaker. {!<br><br>!}[? if difficulty < 0 : Actions - Kill Radbruch, Kill Schümacher, council of elders ?]
 is-card: true
 card-image: img/portraits/LöbePaul.jpg
 view-if: lobe_advisor = 0 and n_advisors < 3
