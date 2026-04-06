@@ -1976,6 +1976,10 @@ go-to: stabile_demokratie if stabile_demokratie; coalition_menu if not stabile_d
 
 @stabile_demokratie
 achievement: stabile_demokratie
+
+go-to: speaker_selection
+@speaker_selection
+
 go-to: coalition_menu
 
 @coalition_menu
